@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inBloom Word Demo", "AO2013_inBloomDemos_CS\inBloom Word Demo.csproj", "{E1339AB8-CC84-48C4-8239-107822BAD347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InBloomDemoWeb", "AO2013_inBloomDemos_CSWeb\InBloomDemoWeb.csproj", "{D14D0574-36A1-4FCF-A228-64852E94B706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inBloom Excel Demo", "ExcelDemoApp\inBloom Excel Demo.csproj", "{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1339AB8-CC84-48C4-8239-107822BAD347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1339AB8-CC84-48C4-8239-107822BAD347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1339AB8-CC84-48C4-8239-107822BAD347}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1339AB8-CC84-48C4-8239-107822BAD347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1339AB8-CC84-48C4-8239-107822BAD347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1339AB8-CC84-48C4-8239-107822BAD347}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D14D0574-36A1-4FCF-A228-64852E94B706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14D0574-36A1-4FCF-A228-64852E94B706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14D0574-36A1-4FCF-A228-64852E94B706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14D0574-36A1-4FCF-A228-64852E94B706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3D3274-78B5-4D68-ABB0-D6DE7074F44A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

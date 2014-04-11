@@ -1,0 +1,360 @@
+﻿/* Add your CSS styles here
+***************************************************************/
+
+* /* global */
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe WP ", "Segoe UI", "Arial", sans-serif;
+}
+
+body
+{
+    color: #333;
+}
+
+nav
+{
+    background-color: #3996D2;
+    font-weight: bold;
+    color: white;
+}
+
+    nav ul li
+    {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+        padding: 4px;
+        padding-top: 12px;
+    }
+
+        nav ul li:hover
+        {
+            cursor: pointer;
+            background-color: #158DD8;
+        }
+
+    nav ul li.selected
+    {
+        background-image: url('../Images/whiteArrow.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+footer img
+{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 64px;
+}
+
+footer div
+{
+    text-align: center;
+    margin-top: -8px;
+}
+
+#loadingDiv 
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:rgba(50, 50, 50, .4);
+}
+
+#loadingDiv img
+{
+    position:relative;
+    top:40%;
+    left:40%;
+}
+
+#userLogin
+{
+    padding: 4px;
+    background-color: #676867;
+    font-size: 12px;
+    color: white;
+}
+
+    #userLogin .loginMessage
+    {
+        color: white;
+    }
+
+    #userLogin .loginName
+    {
+        margin-right: 12px;
+        color: white;
+        font-weight: bold;
+    }
+
+#mainContent
+{
+    background-image: url('../Images/background.jpg');
+    background-size: contain;
+    min-height: 420px;
+    padding-top: 4px;
+    width: 100%;
+}
+
+    #mainContent article
+    {
+        
+    }
+
+#details
+{
+    display: none;
+    width: 98%;
+}
+
+#info
+{
+    display: none;
+}
+
+#searchBox
+{
+    background-color: rgba(255, 255, 255, .25);
+    margin: -4px;
+    padding: 8px;
+}
+
+#searchInput
+{
+    background-color: transparent;
+    border: 2px solid #3996D2;
+    width: 180px;
+    padding: 2px 4px;
+    vertical-align: top;
+    margin-left: 6px;
+}
+
+    #searchInput:focus
+    {
+        border-color: #5AC9DF;
+    }
+
+#searchButton
+{
+    background-color: #3996D2;
+    border: 1px solid #158DD8;
+    height: 26px;
+}
+
+    #searchButton:hover
+    {
+        background-color: #5AC9DF;
+    }
+
+#search .heading
+{
+    padding: 4px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(57, 150, 210, .5)
+}
+
+#searchResults
+{
+    padding: 4px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+    #searchResults div
+    {
+        padding: 4px;
+    }
+
+    #searchResults .fullName
+    {
+        font-weight: bold;
+    }
+
+    #searchResults div ul li
+    {
+        margin-left: 8px;
+        list-style: none;
+        position: relative;
+    }
+
+        #searchResults div ul li button
+        {
+            position: absolute;
+            right: 4px;
+            background-color: #3996D2;
+            border: 1px solid #158DD8;
+            padding: 1px 3px;
+            color: white;
+            height: 20px;
+            line-height: 14px;
+        }
+
+            #searchResults div ul li button:hover
+            {
+                background-color: #5AC9DF;
+            }
+
+#className
+{
+    font-weight: bold;
+    font-size: large;
+    padding: 4px;
+}
+
+#classDetail
+{
+    padding: 4px;
+}
+
+    #classDetail label
+    {
+        display: block;
+        font-size: x-small;
+        color: #777;
+    }
+
+    #classDetail img
+    {
+        vertical-align: top;
+    }
+
+#classInfo
+{
+    display: inline-block;
+    width: 100px;
+    padding-left: 4px;
+}
+
+#studentList ul li
+{
+    padding: 2px;
+    list-style: none;
+    position: relative;
+}
+
+    #studentList ul li button
+    {
+        position: absolute;
+        right: 4px;
+        background-color: #3996D2;
+        border: 1px solid #158DD8;
+        padding: 1px 3px;
+        color: white;
+    }
+
+        #studentList ul li button:hover
+        {
+            background-color: #5AC9DF;
+        }
+
+#analyzeButton
+{
+    background-color: #3996D2;
+    border: 1px solid #158DD8;
+    padding: 4px;
+    color: white;
+    margin-top: 12px;
+    width: 100px;
+}
+
+    #analyzeButton:hover
+    {
+        background-color: #5AC9DF;
+    }
+
+.accordion
+{
+    position: relative;
+    margin-top: 4px;
+    border-top: 1px solid #3996D2;
+    border-bottom: 1px solid #3996D2;
+    width: 100%;
+}
+
+    .accordion header
+    {
+        background-color: rgba(57, 150, 210, .25);
+        padding: 4px;
+        cursor: pointer;
+        color: white;
+    }
+
+        .accordion header.open
+        {
+            background-image: url('../Images/open.png');
+            background-repeat: no-repeat;
+            background-position: right 4px;
+            background-size: 18px;
+        }
+
+        .accordion header.close
+        {
+            background-image: url('../Images/close.png');
+            background-repeat: no-repeat;
+            background-position: right 4px;
+            background-size: 18px;
+        }
+
+        .accordion header:hover
+        {
+            background-color: rgba(57, 150, 210, .5);
+        }
+
+    .accordion .content
+    {
+        display: none;
+        padding: 4px;
+        padding-left: 8px;
+    }
+
+.classList
+{
+    list-style: none;
+}
+
+    .classList li:hover
+    {
+        background-color: rgba(255, 255, 255, .25);
+        cursor: pointer;
+    }
+
+.news
+{
+    padding: 4px;
+    margin-top: 4px;
+    border-bottom: 2px solid #3996D2;
+}
+
+    .news header
+    {
+        font-weight: bold;
+        background-color: rgba(57, 150, 210, .25);
+        padding: 4px;
+    }
+
+.oddRow
+{
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.searchAddButton
+{
+    position: absolute;
+    right: 4px;
+    background-color: #3996D2;
+    border: 1px solid #158DD8;
+    padding: 1px 3px;
+    color: white;
+    height: 20px;
+    line-height: 14px;
+}
+
+.searchAddButton:hover
+{
+    background-color: #5AC9DF;
+}

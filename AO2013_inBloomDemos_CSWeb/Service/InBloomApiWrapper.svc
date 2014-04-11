@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="InBloomWebSite.Service.InBloomApiWrapper" CodeBehind="InBloomApiWrapper.svc.cs" %>

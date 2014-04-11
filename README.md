@@ -47,3 +47,10 @@ Comments / Questions
 Please feel free to send comments or questions:
 
 email: dev at 3sharp.com
+
+About 3Sharp
+---
+3Sharp is a SharePoint Integration and Office Customization Consulting company. Our SharePoint and Office experts help companies build effective productivity and collaboration solutions on top of the software their employees already use.
+
+Find out more at http://www.3Sharp.com
+

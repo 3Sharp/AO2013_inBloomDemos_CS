@@ -46,7 +46,7 @@ Comments / Questions
 ---
 Please feel free to send comments or questions:
 
-email: dev at 3sharp.com
+email: info at 3sharp.com
 
 About 3Sharp
 ---
